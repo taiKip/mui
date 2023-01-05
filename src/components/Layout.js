@@ -3,11 +3,10 @@ import Drawer from "@mui/material/Drawer";
 import Typography from "@mui/material/Typography";
 
 import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import { SubjectOutlined, AddCircleOutlined } from "@mui/icons-material";
-import { createTheme, ListItemButton, makeStyles } from "@mui/material";
+import { createTheme, ListItemButton } from "@mui/material";
 import { useLocation, useNavigate } from "react-router-dom";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
